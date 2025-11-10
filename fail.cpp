@@ -21,11 +21,11 @@ int main()
     // Визначення назви гідності карти
     switch (N) 
     {
-        case 6:cardName = "шістка";break;
-        case 7:cardName = "сімка";break;
-        case 8:cardName = "вісімка";break;
-        case 9:cardName = "дев'ятка";break;
-        case 10:cardName = "десятка";break;
+        case 6:cardName = "6";break;
+        case 7:cardName = "7";break;
+        case 8:cardName = "8";break;
+        case 9:cardName = "9";break;
+        case 10:cardName = "10";break;
         case 11:cardName = "валет";break;
         case 12:cardName = "дама";break;
         case 13:cardName = "король";break;
