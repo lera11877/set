@@ -6,6 +6,7 @@
 </head>
 <body>
   <h2>Тест з теми "Принтери"</h2>
+  <p id="result"></p>
   <script>
     // Масив питань і відповідей
     const questions = [
@@ -35,8 +36,9 @@
         alert(`❌ Неправильно. Правильна відповідь: ${questions[i].a}`);
       }
     }
-
-    alert(`Тест завершено!\nТвій результат: ${score} з ${questions.length}`);
+    const resultElement = document.getElementById('result'); // Отримуємо елемент для виводу результату
+    resultElement.innerHTML = Тест завершено! 🎉 Твій результат: ${score} з ${questions.length}; //Виводимо результат у HTML-елемент
+    resultElement.style.fontWeight = 'bold'; //Додаткове форматування ( жирний шрифт)
   </script>
 </body>
 </html>
